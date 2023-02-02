@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: inventory
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       run: inventory
