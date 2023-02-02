@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: inventory
 spec:
-  ports:https://github.com/wooseokchoi-kurly/kurly-inventory
     - port: 9000 #service port
       protocol: TCP
       targetPort: 8080 #deployment containerPort
