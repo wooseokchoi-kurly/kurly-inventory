@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: inventory
 spec:
+  ports:
     - port: 9000 #service port
       protocol: TCP
       targetPort: 8080 #deployment containerPort
